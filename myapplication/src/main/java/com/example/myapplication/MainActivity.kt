@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity(){
     private var textview: TextView ?=null
     private lateinit var editText: EditText
     private lateinit var editText1: EditText
-    private lateinit var button_plus: Button
+    lateinit var button_plus: Button
     private lateinit var button_minus: Button
     private lateinit var button_multiplication: Button
     private lateinit var button_division: Button
@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity(){
         button_minus = findViewById(R.id.button)
         button_multiplication = findViewById(R.id.button2)
         button_division = findViewById(R.id.button4)
+
+
 
         button_plus.setOnClickListener {
 

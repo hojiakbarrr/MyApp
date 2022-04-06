@@ -94,18 +94,17 @@ class Perehod : AppCompatActivity() {
 
         findViewById<ImageView>(R.id.clear).setOnClickListener{
 
-            editor.remove(list.toString())
-            editor.remove("LIST")
+//            editor.remove(list.toString())
+//            editor.remove("LIST")
             editor.clear()
             editor.commit()
-
             editor.apply()
 //            var list = getList()
 //            val gson = Gson()
 //            val json = gson.toJson(list)//converting list to Json
 //            for (i in list){
 //                Log.i("myTag",i)
-                itog3?.text = ""
+//                itog3?.text = ""
 
 
 

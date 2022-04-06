@@ -424,17 +424,17 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_weight="1"
             android:background="@drawable/pizza"
-            android:layout_weight="1">
+            android:orientation="horizontal">
 
             <RelativeLayout
                 android:id="@+id/rel144"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="10dp"
-                android:background="@color/purple_200"
-                android:layout_weight="1">
+                android:layout_weight="1"
+                android:background="@color/purple_200">
 
                 <ImageView
                     android:id="@+id/img444"
@@ -453,13 +453,13 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/img444"
+                    android:layout_centerHorizontal="true"
                     android:layout_marginVertical="10dp"
                     android:text="Сендвичи"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
                     android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:layout_centerHorizontal="true">
+                    android:textStyle="bold">
 
                 </TextView>
 
@@ -468,23 +468,23 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_below="@+id/tet444"
+                    android:layout_centerHorizontal="true"
                     android:text="Взять!?"
                     android:textAllCaps="false"
                     android:textColor="@color/black"
                     android:textSize="16sp"
-                    android:textStyle="bold"
-                    android:layout_centerHorizontal="true">
+                    android:textStyle="bold">
 
                 </TextView>
 
                 <Button
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:textAllCaps="false"
-                    android:text="Buy!?"
-                    android:layout_marginTop="10dp"
                     android:layout_below="@id/txt444"
-                    android:layout_centerHorizontal="true">
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:text="Buy!?"
+                    android:textAllCaps="false">
 
                 </Button>
 
